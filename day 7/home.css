@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+nav{
+    background-color: gray;
+    border: 1px solid black;
+    opacity: 0.2;
+    height: 50px;
+    
+}
+h1{
+    color: ghostwhite;
+    font-size: 82px;
+    text-align: center;
+
+
+}
+#heading{
+    font-size: 216px;
+    margin-top: 200px;
+    margin-bottom: 400px;
+    box-sizing: border-box;
+    text-shadow: 10px 7px 10px ;
+}
+#heading:hover{
+    font-size: 120px;
+    text-shadow: 6px 11px 84px blue;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 12px;
+
+}
+nav a:hover{
+    color: blue;
+}
+.gal div{
+    height: 250px;
+}
+.gal h2{
+    text-align: center;
+    color: aliceblue;
+    height: 50px;
+}
+.gal img[alt=car]{
+    width: 206px;
+    height: 200px;
+    float: right ;
+}
+.gal img[alt=car1]
+{
+    width: 254px;
+    height: 200px;
+    float: right ;
+}

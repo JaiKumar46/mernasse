@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    
+    <form action="">
+        <fieldset>
+            <legend>Form</legend>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autofocus minlength="3">
+        </div>
+        <div>
+            <label for="gen">Gender</label>
+            <input type="radio" id="gen" name="gen">Female
+            <input type="radio" id="gen" name="gen">Male
+        </div>
+        <div>
+            <label for="pwd">Password</label>
+            <input type="password" pattern="(?=.*\d)(?=.*[A-Z])(?=.*[a-z]).{8}" id="pwd" name="pwd">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">reset</button>
+        </div>
+        </fieldset>
+    </form>
+    
+    <audio controls>
+        <source src="../day4/invalid_keypress.mp3">
+
+    </audio>
+    <a href="../day5/audio.html">Audio</a>
+    <a href="../day5/video.html">Video</a>
+</body>
+</html>
